@@ -1,4 +1,6 @@
 .fieldset_random_quote {
+    margin-top: 20px;
+    height: 170px;
     width: 700px;
     display: inline-block;
     border:2px solid #555;
@@ -6,13 +8,35 @@
     /*width: 1000px;*/
 }
 
-.fieldset_sign_in{
-    max-width: 8em;
-    min-height: 2em;
+.fieldset_number_quote {
+    height: 60px;
+    width: 700px;
+    display: inline-block;
     border:2px solid #555;
     border-radius:5px;
-    margin-right: 0;
-    margin-left: auto;
+    /*width: 1000px;*/
+}
+
+.fieldset_sign_in {
+    height: 170px;
+    width: 277px;
+    display: inline-block;
+    border:2px solid #555;
+    border-radius:5px;
+    /*width: 1000px;*/
+}
+
+.fieldset_authenticated {
+    height: 170px;
+    width: 277px;
+    display: inline-block;
+    border:2px solid #555;
+    border-radius:5px;
+    /*width: 1000px;*/
+}
+
+.sign_in_fields{
+    text-align: center;
 }
 
 .header_buttons_border{
@@ -32,6 +56,7 @@
 .quote_text{
     font-size:20px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .header_text{
@@ -39,27 +64,9 @@
     font-weight: bold;
 }
 
-a.bot8 {
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
-    border-radius: 4px;
-    color: #555555;
-    display:inline-block;
-    width:120px;
-    margin: 20px auto;
-    font-size: 14px;
-    text-align:center;
-    height: 20px;
-    line-height: 20px;
-    margin-bottom: 10px;
-    padding: 4px 6px;
-    vertical-align: middle;
-    text-decoration:none;
-}
-a.bot8:hover, a.bot8:focus {
-    border-color: rgba(82, 168, 236, 0.8);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
-    outline: 0 none;
+.plus_minus_button{
+    margin-top: 5px;
+    margin-left: 15px;
+    height:25px;
+    width:25px;
 }
